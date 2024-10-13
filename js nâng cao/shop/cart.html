@@ -1,0 +1,162 @@
+<html></html>
+ <head>
+  <title>
+   Furniro
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./dist/output.css">
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-white text-gray-800">
+  <!-- Header -->
+    <section class="container max-w-screen-xl m-auto flex items-center justify-between py-4">
+        <img src="./assets/images/logo.png" alt="">
+        <ul class="flex gap-8 font-medium text-xl">
+            <li class="hover:text-amber-500"><a href="index.html"></a>Home</li>
+            <li class="hover:text-amber-500"><a href="shope.html"></a>Shop</li>
+            <li class="hover:text-amber-500"><a href=""></a>About</li>
+            <li class="hover:text-amber-500"><a href=""></a>Contact</li>
+        </ul>
+        <div flex gap-4>
+            <span class="material-symbols-outlined">person</span>
+            <span class="material-symbols-outlined">search</span>
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-outlined">shopping_cart</span>
+        </div>
+    </section>
+  <!-- Cart -->
+   <main>
+    <section class="container max-w-screen-xl m-auto grid grid-cols-12 gap-8 my-16">
+        <div class="col-span-8">
+            <table class="w-full">
+                <thead>
+                    <tr class="bg-neutral-100 *:py-4 *:font-medium" >
+                        <th class="text-left pl-4">Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="*:py-4 *:text-center *:font-medium">
+                        <td class="!text-left">
+                            <img src="./assets/images/image 1.jpg" alt="" class="inline w-32 py-4 mr-4">
+                            <span>Asgaard sofa</span>
+                        </td>
+                        <td class="text-[#A3A3A3]">25.000.000</td>
+                        <td>1</td>
+                        <td>25.000.000</td>
+                        <td>
+                            <span class="material-symbols-outlined text-red-500">
+                                delete
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-span-4 bg-neutral-100 p-8">
+            <h2 class="font-semibold text-2xl mb-4">Cart Total</h2>
+            <hr class="border-[#A3A3A3] mb-5">
+            <p class="font-medium flex justify-between items-center mb-4">
+                <span>Subtotal</span>
+                <span class="text-[#A3A3A3]">25.000.000đ</span>
+            </p>
+            <p class="font-medium flex justify-between items-center mb-8">
+                <span>Total</span>
+                <span class="font-bold text-red-500 text-[20px]">25.000.000</span>
+            </p>
+            <a href="" class="border border-solid border-yellow-500 text-yellow-500 w-full inline-block text-center py-2 hover:bg-yellow-500 hover:text-white">Check Out</a>
+        </div>
+    </section>
+   </main>
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-12">
+    <div class="container max-w-screen-xl m-auto grid grid-cols-1 md:grid-cols-4 gap-6">
+     <div>
+         <img src="./assets/images/logo.png" alt="">
+      <p>
+       400 University Drive Suite 200 Coral Gables, FL 33134 USA
+      </p>
+     </div>
+     <div>
+      <h3 class="text-xl font-semibold text-white mb-4">
+       Sitemap
+      </h3>
+      <ul>
+       <li>
+        <a class="hover:text-white" href="#">
+         Home
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-white" href="#">
+         Shop
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-white" href="#">
+         About
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-white" href="#">
+         Contact
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="text-xl font-semibold text-white mb-4">
+       Help
+      </h3>
+      <ul>
+       <li>
+        <a class="hover:text-white" href="#">
+         Payment Options
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-white" href="#">
+         Returns
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-white" href="#">
+         Privacy Policies
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="text-xl font-semibold text-white mb-4">
+       Location
+      </h3>
+      <p>
+       support@euphoria.in
+      </p>
+      <p>
+       Ahmedabad Main Road
+      </p>
+      <p>
+       Udaipur, India- 313002
+      </p>
+     </div>
+    </div>
+    <div class="text-center mt-12">
+     <p>
+      © 2023 Euphoria Folks Pvt Ltd. All rights reserved.
+     </p>
+    </div>
+   </footer>
+ </body>
+</html>

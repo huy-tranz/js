@@ -1,0 +1,8 @@
+{
+    "products":[
+        {"id":1,"name":"Product 1","image":"https://storage.googleapis.com/a1aa/image/Y5B1ico8TIqSJ1Au1NdETn1pCFtSiw87aT8OZxjbiOIclK5E.jpg","price":"100"},
+        {"id":2,"name":"Product 2","image":"https://storage.googleapis.com/a1aa/image/Y5B1ico8TIqSJ1Au1NdETn1pCFtSiw87aT8OZxjbiOIclK5E.jpg","price":"200"},
+        {"id":3,"name":"Product 3","image":"https://storage.googleapis.com/a1aa/image/Y5B1ico8TIqSJ1Au1NdETn1pCFtSiw87aT8OZxjbiOIclK5E.jpg","price":"300"}
+
+    ]
+}

@@ -1,0 +1,276 @@
+<html>
+
+</html>
+
+<head>
+    <title>
+        Furniro
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/output.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800">
+    <!-- Header -->
+    <section class="container max-w-screen-xl m-auto flex items-center justify-between py-4">
+        <img src="./assets/images/logo.png" alt="">
+        <ul class="flex gap-8 font-medium text-xl">
+            <li class="hover:text-amber-500"><a href="index.html"></a>Home</li>
+            <li class="hover:text-amber-500"><a href="shope.html"></a>Shop</li>
+            <li class="hover:text-amber-500"><a href=""></a>About</li>
+            <li class="hover:text-amber-500"><a href=""></a>Contact</li>
+        </ul>
+        <div flex gap-4>
+            <span class="material-symbols-outlined">person</span>
+            <span class="material-symbols-outlined">search</span>
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-outlined">shopping_cart</span>
+        </div>
+    </section>
+    <main class="container max-w-screen-xl m-auto py-12 px-6">
+        <h1 class="text-3xl font-bold mb-8">
+            Billing details
+        </h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="md:col-span-2">
+                <form class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700" for="first-name">
+                                First Name
+                            </label>
+                            <input class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" id="first-name"
+                                type="text" />
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700" for="last-name">
+                                Last Name
+                            </label>
+                            <input class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" id="last-name"
+                                type="text" />
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700" for="company-name">
+                            Company Name (Optional)
+                        </label>
+                        <input class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" id="company-name"
+                            type="text" />
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700" for="country">
+                            Country / Region
+                        </label>
+                        <select class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" id="country">
+                            <option>
+                                Sri Lanka
+                            </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700" for="street-address">
+                            Street address
+                        </label>
+                        <input class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" id="street-address"
+                            type="text" />
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700" for="city">
+                                Town / City
+                            </label>
+                            <input class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" id="city"
+                                type="text" />
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700" for="province">
+                                Province
+                            </label>
+                            <select class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" id="province">
+                                <option>
+                                    Western Province
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700" for="zip-code">
+                            ZIP code
+                        </label>
+                        <input class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" id="zip-code"
+                            type="text" />
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700" for="phone">
+                            Phone
+                        </label>
+                        <input class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" id="phone" type="text" />
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700" for="email">
+                            Email address
+                        </label>
+                        <input class="mt-1 block w-full border-gray-300 rounded-md shadow-sm" id="email" type="email" />
+                    </div>
+                </form>
+            </div>
+            <div>
+                <div class="bg-white p-6 rounded-md shadow-md">
+                    <h2 class="text-xl font-bold mb-4">
+                        Product
+                    </h2>
+                    <div class="flex justify-between mb-2">
+                        <span>
+                            Asgard sofa X1
+                        </span>
+                        <span>
+                            25.000.000d
+                        </span>
+                    </div>
+                    <div class="flex justify-between mb-2">
+                        <span>
+                            Subtotal
+                        </span>
+                        <span>
+                            25.000.000d
+                        </span>
+                    </div>
+                    <div class="flex justify-between font-bold text-lg mb-4">
+                        <span>
+                            Total
+                        </span>
+                        <span>
+                            25.000.000d
+                        </span>
+                    </div>
+                    <div class="border-t border-gray-300 pt-4">
+                        <div class="mb-4">
+                            <input checked="" id="direct-bank-transfer" name="payment-method" type="radio" />
+                            <label class="ml-2" for="direct-bank-transfer">
+                                Direct Bank Transfer
+                            </label>
+                            <p class="text-sm text-gray-600 mt-2">
+                                Make your payment directly into our bank account. Please use your Order ID as the
+                                payment reference. Your order will not be shipped until the funds have cleared in our
+                                account.
+                            </p>
+                        </div>
+                        <div class="mb-4">
+                            <input id="atm-bank-transfer" name="payment-method" type="radio" />
+                            <label class="ml-2" for="atm-bank-transfer">
+                                ATM Bank Transfer
+                            </label>
+                        </div>
+                        <div class="mb-4">
+                            <input id="cash-on-delivery" name="payment-method" type="radio" />
+                            <label class="ml-2" for="cash-on-delivery">
+                                Cash On Delivery
+                            </label>
+                        </div>
+                        <p class="text-sm text-gray-600 mb-4">
+                            Your personal data will be used to support your experience throughout this website, to
+                            manage access to your account, and for other purposes described in our
+                            <a class="text-yellow-500" href="#">
+                                privacy policy
+                            </a>
+                            .
+                        </p>
+                        <button class="w-full bg-yellow-500 text-white py-2 rounded-md">
+                            Place order
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="container max-w-screen-xl m-auto grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div>
+                <img src="./assets/images/logo.png" alt="">
+                <p>
+                    400 University Drive Suite 200 Coral Gables, FL 33134 USA
+                </p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-white mb-4">
+                    Sitemap
+                </h3>
+                <ul>
+                    <li>
+                        <a class="hover:text-white" href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hover:text-white" href="#">
+                            Shop
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hover:text-white" href="#">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hover:text-white" href="#">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-white mb-4">
+                    Help
+                </h3>
+                <ul>
+                    <li>
+                        <a class="hover:text-white" href="#">
+                            Payment Options
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hover:text-white" href="#">
+                            Returns
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hover:text-white" href="#">
+                            Privacy Policies
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-white mb-4">
+                    Location
+                </h3>
+                <p>
+                    support@euphoria.in
+                </p>
+                <p>
+                    Ahmedabad Main Road
+                </p>
+                <p>
+                    Udaipur, India- 313002
+                </p>
+            </div>
+        </div>
+        <div class="text-center mt-12">
+            <p>
+                © 2023 Euphoria Folks Pvt Ltd. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
